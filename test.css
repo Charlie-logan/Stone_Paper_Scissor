@@ -1,0 +1,69 @@
+body{
+    background-color: bisque;
+}
+.box {
+  height: 173px;
+  width: 184px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.circles {
+  z-index:2;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+
+  > div {
+    animation: growAndFade 3s infinite ease-out;
+    background-color: rgb(29, 150, 10);
+
+    border-radius: 50%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  .circle1 {
+    animation-delay: 1s;
+  }
+  .circle2 {
+    animation-delay: 2s;
+  }
+  .circle3 {
+    animation-delay: 3s;
+  }
+}
+
+@keyframes growAndFade {
+  0% {
+    opacity: 0.95;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+.place{
+    z-index: 1;
+    height: 300px;
+    width: 300px;
+    /* background-color: tomato; */
+    border: 2px solid tomato;
+    position: absolute;
+    top: 180px;
+    left: 300px;
+}
+
+.img2 img{
+    height: 280px;
+    width: 280px;
+    /* border: 20px solid violet; */
+    border-radius: 50%;
+}

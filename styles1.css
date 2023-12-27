@@ -1,0 +1,276 @@
+:root {
+  margin: 0px;
+  padding: 0px;
+  background-color: #8cc461;
+  /* background-color:  #FFF; */
+}
+
+main {
+  /* background: #8CC461; */
+  height: 97vh;
+  width: 99vw;
+  position: relative;
+}
+/* .image {
+    position: absolute;
+  } */
+#img1 {
+  width: 200.43px;
+  height: 201px;
+  position: absolute;
+  top: 99px; /* 169px - 70px */
+  left: 557px;
+}
+
+#img2 {
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 128px; /* 198px - 70px */
+  left: 388px;
+}
+
+#img3 {
+  width: 103px;
+  height: 103px;
+  position: absolute;
+  top: 16px; /* 86px - 70px */
+  left: 730px;
+}
+
+#img4 {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 16px; /* 86px - 70px */
+  left: 503px;
+}
+
+#img5 {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 52px; /* 122px - 70px */
+  left: 610px;
+}
+
+#img6 {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 281px; /* 351px - 70px */
+  left: 496px;
+}
+
+#img7 {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 176px; /* 246px - 70px */
+  left: 762px;
+}
+
+#img8 {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 103px; /* 173px - 70px */
+  left: 830px;
+}
+
+#img9 {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 52px; /* 122px - 70px */
+  left: 610px;
+}
+
+#img10 {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  top: 67px; /* 137px - 70px */
+  left: 460px;
+}
+
+.hurray {
+  width: 520px;
+  height: 86px;
+  position: absolute;
+  top: 268px;
+  left: 436px;
+}
+.p01 {
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 91px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0;
+  letter-spacing: 9.1px;
+}
+
+.p02 {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0;
+  letter-spacing: 4.1px;
+}
+
+.t5 {
+  width: 10.875rem;
+  height: 2.75rem;
+  /* flex-shrink: 0; */
+  border-radius: 9px;
+  background: #fff;
+  color: #6b6b6b;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.foot {
+  width: 99vw;
+  height: 3rem;
+  /* border: 0.125rem solid tomato; */
+  position: absolute;
+  bottom: 0rem;
+  /* display: flex; */
+}
+
+.box {
+  position: absolute;
+  right: 3.4375rem;
+}
+
+.box1 {
+  width: 7.4375rem;
+  height: 3rem;
+  /* background-color: aqua; */
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background: rgba(217, 217, 217, 0);
+  /* flex-shrink: 0; */
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  cursor: pointer;
+}
+.box1:hover {
+  transition-duration: 0.1s;
+  background-color: #3a3a3a;
+  transform: scale(1.25);
+}
+
+.box1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px 40px white;
+}
+
+.box1:active:after {
+  box-shadow: 0 0 0 0 white;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.box1:active {
+  top: 1px;
+}
+
+.rules-pop {
+  display: none;
+  /* z-index: -1; */
+  width: 17.875rem;
+  height: 20.5rem;
+  /* flex-shrink: 0; */
+  border-radius: 13px;
+  border: 7px solid #fff;
+  background: #004429;
+  position: absolute;
+  right: 1.75rem;
+  bottom: 3.4375rem;
+}
+
+.p1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  left: 4rem;
+}
+
+.p2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.p3 {
+  list-style-type: none;
+  width: 14.375rem;
+  height: 13.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 3.75rem;
+}
+
+.close {
+  height: 2.75rem;
+  width: 2.75rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  transform: translate(60%, -60%);
+}
+
+.rules-pop ul li::before {
+  content: "\25A0";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
